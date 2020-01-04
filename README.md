@@ -13,6 +13,7 @@ cd example
 git init
 go mod init github.com/luthermonson/example
 go mod tidy && go mod vendor
+sed -i 's/github.com\/luthermonson\/urfave-cli-skeleton/github.com\/luthermonson\/example/' main.go
 git add -A
 git commit -m "initializing"
 git remote add origin git@github.com:luthermonson/example.git
