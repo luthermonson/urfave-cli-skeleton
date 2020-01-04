@@ -12,8 +12,8 @@ import (
 
 func main() {
 	app := &cli.App{
-		Name:     "tail-gunner",
-		Usage:    "When tail needs a little more firepower to cover your six",
+		Name:     "new-command",
+		Usage:    "",
 		Action:   cmd.Stub,
 		Commands: cmd.Commands(),
 		Flags: []cli.Flag{
